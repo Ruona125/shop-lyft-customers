@@ -8,7 +8,7 @@ import Orders from "./pages/Orders/Orders";
 import Wishlist from "./pages/Wishlists/Wishlist";
 import CertainProduct from "./pages/CertainProduct/CertainProduct";
 import AuthHandlerComponet from "./components/AuthHandlerComponent/AuthHandlerComponent";
-import Payment from "./pages/Payment/payment";
+import Payment from "./pages/Payment/Payment";
 import PaymentSuccess from "./pages/PaymentSuccess/PaymentSuccess";
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
