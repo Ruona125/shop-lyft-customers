@@ -24,7 +24,7 @@ const NavbarComponent = () => {
   const handleLogout = () => {
     // Dispatch the logout action
     dispatch(logoutUser());
-    navigate("/login");
+    navigate("/");
   };
 
   useEffect(() => {

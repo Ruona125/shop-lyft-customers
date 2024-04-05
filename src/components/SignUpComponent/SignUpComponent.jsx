@@ -111,7 +111,7 @@ const SignUpComponent = () => {
               </Button>
     
               <br />
-              <Link style={{textDecoration:"none"}} to={"/login"}><p>Already have an account, login</p></Link>
+              <Link style={{textDecoration:"none"}} to={"/"}><p>Already have an account, login</p></Link>
               {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
             </form>
           )}

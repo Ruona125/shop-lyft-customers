@@ -42,14 +42,14 @@ const AuthHandlerComponet = () => {
 
               // Handle the error by logging the user out and redirecting to the login page
               dispatch(logoutUser()); // Log the user out
-              navigate("/login"); // Redirect to the login page
+              navigate("/"); // Redirect to the login page
             }
           } else {
             console.log("Refresh token not found, logging out");
 
             // Handle the case where no refresh token is available
             dispatch(logoutUser()); // Log the user out
-            navigate("/login"); // Redirect to the login page
+            navigate("/"); // Redirect to the login page
           }
         }
       } catch (error) {
@@ -60,7 +60,7 @@ const AuthHandlerComponet = () => {
 
       // Handle the case where no access token is available
       dispatch(logoutUser()); // Log the user out
-      navigate("/login"); // Redirect to the login page
+      navigate("/"); // Redirect to the login page
     }
   };
 

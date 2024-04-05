@@ -14,7 +14,7 @@ const HomeComponent = () => {
   const handleLogout = () => {
     // Dispatch the logout action
     dispatch(logoutUser());
-    navigate("/login");
+    navigate("/");
   };
   const { isAuthenticated, user } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
@@ -25,7 +25,7 @@ const HomeComponent = () => {
         <div className="background-wrapper">
           <div className="text-wrapper">
             <h1>Welcome To ShopLyft</h1>
-            <Link to={"/login"}>
+            <Link to={"/"}>
             <Button
             type="submit"
             variant="contained"
