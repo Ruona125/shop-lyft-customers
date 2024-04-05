@@ -21,7 +21,7 @@ const GiftBoxesComponent = () => {
   const cartCount = useSelector((state) => state.cart.count);
 
   useEffect(() => {
-    const url = "http://64.23.187.18:8000/giftboxes";
+    const url = "https://shoplyft.meetruona.com/giftboxes";
     axios.get(url).then((response) => {
       setProducts(response.data);
       setLoading(false)
@@ -45,7 +45,7 @@ const GiftBoxesComponent = () => {
   }
 
   const addToCart = (productId) => {
-    const url = "http://64.23.187.18:8000/cart"; // Replace with your actual API endpoint.
+    const url = "https://shoplyft.meetruona.com/cart"; // Replace with your actual API endpoint.
     const requestData = {
       userId: user._id,
       products: [{ productId }],
@@ -81,7 +81,7 @@ const GiftBoxesComponent = () => {
   };
 
   const addToWishlist = (productId) => {
-    const url = "http://64.23.187.18:8000/wishlist"; // Replace with your actual API endpoint.
+    const url = "https://shoplyft.meetruona.com/wishlist"; // Replace with your actual API endpoint.
     const requestData = {
       userId: user._id,
       products: [{ productId }],

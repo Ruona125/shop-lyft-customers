@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchData = createAsyncThunk('data/fetchData', async () => {
-  const response = await axios.get('http://64.23.187.18:8000/test');
+  const response = await axios.get('https://shoplyft.meetruona.com/test');
   return response.data;
 });
 

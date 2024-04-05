@@ -28,7 +28,7 @@ const NavbarComponent = () => {
   };
 
   useEffect(() => {
-    const url = `http://64.23.187.18:8000/cart/${user._id}`;
+    const url = `https://shoplyft.meetruona.com/cart/${user._id}`;
     const headers = {
       "Content-Type": "application/json",
       Authorization: localStorage.getItem("token"),

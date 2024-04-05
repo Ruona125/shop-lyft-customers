@@ -7,7 +7,7 @@ const ForgotPasswordComponent = () => {
 
   const handleForgotPassword = async () => {
     try {
-      const response = await axios.post('http://64.23.187.18:8000/forgotpassword', { email });
+      const response = await axios.post('https://shoplyft.meetruona.com/forgotpassword', { email });
       console.log(response.data);
     } catch (error) {
       console.error(error.response.data);

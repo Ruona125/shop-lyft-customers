@@ -17,7 +17,7 @@ const WishlistComponent = () => {
   const [loading, setLoading] = useState(true);
   const { user } = useSelector((state) => state.auth);
   useEffect(() => {
-    const url = `http://64.23.187.18:8000/wishlist/${user._id}`;
+    const url = `https://shoplyft.meetruona.com/wishlist/${user._id}`;
     const headers = {
       "Content-Type": "aplication/json",
       Authorization: localStorage.getItem("token"),
@@ -67,7 +67,7 @@ const WishlistComponent = () => {
 
   const handleWishlistDelete = async (wishlistId) => {
     try {
-      const url = `http://64.23.187.18:8000/wishlist/${wishlistId}`;
+      const url = `https://shoplyft.meetruona.com/wishlist/${wishlistId}`;
       const headers = {
         "Content-Type": "application/json",
         Authorization: localStorage.getItem("token"),
@@ -116,7 +116,7 @@ const WishlistComponent = () => {
 
   const updateWishlistOnServer = async (wishlistId, updatedCarts) => {
     try {
-      const url = `http://64.23.187.18:8000/wishlist/${wishlistId}`;
+      const url = `https://shoplyft.meetruona.com/wishlist/${wishlistId}`;
       const headers = {
         "Content-Type": "application/json",
         Authorization: localStorage.getItem("token"),

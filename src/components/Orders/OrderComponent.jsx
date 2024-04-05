@@ -17,7 +17,7 @@ const OrderDetails = () => {
 
   useEffect(() => {
     // Replace with your actual API endpoint
-    const apiUrl = `http://64.23.187.18:8000/find/${user._id}`;
+    const apiUrl = `https://shoplyft.meetruona.com/find/${user._id}`;
     const headers = {
       "Content-Type": "application/json",
       Authorization: localStorage.getItem("token"),

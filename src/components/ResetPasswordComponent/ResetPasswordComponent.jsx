@@ -13,7 +13,7 @@ const ResetPasswordComponent = () => {
   const handleResetPassword = async () => {
     try {
       const response = await axios.post(
-        `http://64.23.187.18:8000/reset/password/${reset_token}`,
+        `https://shoplyft.meetruona.com/reset/password/${reset_token}`,
         {
           password,
           confirm_password: confirmPassword,

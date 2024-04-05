@@ -27,7 +27,7 @@ const CartComponent = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const url = `http://64.23.187.18:8000/cart/${user._id}`;
+    const url = `https://shoplyft.meetruona.com/cart/${user._id}`;
     const headers = {
       "Content-Type": "application/json",
       Authorization: localStorage.getItem("token"),
@@ -98,7 +98,7 @@ const CartComponent = () => {
 
     // Send a POST request to your order API to create the order
     axios
-      .post("http://64.23.187.18:8000/order", orderData, {
+      .post("https://shoplyft.meetruona.com/order", orderData, {
         headers: {
           "Content-Type": "application/json",
           Authorization: localStorage.getItem("token"),
@@ -119,7 +119,7 @@ const CartComponent = () => {
     const amount = mainTotal * 100; // Amount in cents
     const description = "Purchase Description";
 
-    fetch("http://64.23.187.18:8000/payment", {
+    fetch("https://shoplyft.meetruona.com/payment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -136,7 +136,7 @@ const CartComponent = () => {
 
   const handleDeleteCart = (cartId) => {
     axios
-      .delete(`http://64.23.187.18:8000/cart/${cartId}`, {
+      .delete(`https://shoplyft.meetruona.com/cart/${cartId}`, {
         headers: {
           "Content-Type": "application/json",
           Authorization: localStorage.getItem("token"),
@@ -186,7 +186,7 @@ const CartComponent = () => {
 
   //this is the one that doesn't console.log error
   const updateCartOnServer = (cartId, updatedCarts) => {
-    const url = `http://64.23.187.18:8000/cart/${cartId}`;
+    const url = `https://shoplyft.meetruona.com/cart/${cartId}`;
     const headers = {
       "Content-Type": "application/json",
       Authorization: localStorage.getItem("token"),

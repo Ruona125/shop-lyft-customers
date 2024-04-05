@@ -57,7 +57,7 @@ const CertainProductComponent = () => {
     setExpanded(newExpanded ? panel : false);
   };
   useEffect(() => {
-    const url = `http://64.23.187.18:8000/product/${id}`;
+    const url = `https://shoplyft.meetruona.com/product/${id}`;
     axios.get(url).then((response) => {
       setCertainProduct(response.data);
       console.log(response.data);
@@ -65,7 +65,7 @@ const CertainProductComponent = () => {
 
     const fetchRating = async () => {
       try {
-        const apiUrl = `http://64.23.187.18:8000/rating/${id}`;
+        const apiUrl = `https://shoplyft.meetruona.com/rating/${id}`;
         const headers = {
           "Content-Type": "application/json",
           Authorization: localStorage.getItem("token"),
@@ -80,7 +80,7 @@ const CertainProductComponent = () => {
 
     const fetchReviews = async () => {
       try {
-        const apiUrl = `http://64.23.187.18:8000/review/${id}`;
+        const apiUrl = `https://shoplyft.meetruona.com/review/${id}`;
         const headers = {
           "Content-Type": "application/json",
           Authorization: localStorage.getItem("token"),

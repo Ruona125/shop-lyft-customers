@@ -6,7 +6,7 @@ const PaymentComponent = () => {
     const amount = 1000; // Amount in cents
     const description = 'Purchase Description';
 
-    fetch('http://64.23.187.18:8000/payment', {
+    fetch('https://shoplyft.meetruona.com/payment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

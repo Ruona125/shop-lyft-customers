@@ -28,7 +28,7 @@ const AuthHandlerComponet = () => {
             try {
               // Send a request to the server to refresh the access token using the refresh token
               const response = await axios.post(
-                "http://64.23.187.18:8000/refresh",
+                "https://shoplyft.meetruona.com/refresh",
                 {
                   refreshToken: refreshToken,
                 }
