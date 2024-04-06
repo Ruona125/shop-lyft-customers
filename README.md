@@ -35,3 +35,5 @@ Shopping with Shop Lyft is simple and enjoyable. Here's how you can get started:
 6. **Track Your Order:** After completing your purchase, you can track the status of your order and anticipate its arrival.
 
 Start your shopping journey with Shop Lyft Customer section today and discover a world of convenience and satisfaction!
+
+Here's the url to the api: https://github.com/Ruona125/shoplyft-api.git
