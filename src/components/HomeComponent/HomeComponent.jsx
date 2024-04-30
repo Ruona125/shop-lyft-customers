@@ -26,7 +26,7 @@ const HomeComponent = () => {
           <div className="text-wrapper">
             <h1>Welcome To ShopLyft</h1>
             <Link to={"/"}>
-            <Button
+            {/* <Button
             type="submit"
             variant="contained"
             color="primary"
@@ -39,7 +39,7 @@ const HomeComponent = () => {
             
             Login
             
-          </Button>
+          </Button> */}
           </Link>
             {/* <h3>Shop Now</h3> */}
           </div>
