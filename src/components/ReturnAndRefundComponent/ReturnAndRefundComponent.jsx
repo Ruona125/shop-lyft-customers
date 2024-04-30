@@ -50,8 +50,8 @@ const ReturnAndRefundComponent = () => {
               </li>
               <li>
                 Contact our customer support team at{" "}
-                <a href="mailto:collectionsbu@gmail.com">
-                  collectionsbu@gmail.com
+                <a href="mailto:meetruona@gmail.com">
+                  meetruona@gmail.com
                 </a>{" "}
                 within 30 days of receiving your order.
               </li>
@@ -112,8 +112,8 @@ const ReturnAndRefundComponent = () => {
               <li>To initiate a return, please follow these steps:</li>
               <li>
                 Contact our customer support team at{" "}
-                <a href="mailto:collectionsbu@gmail.com">
-                  collectionsbu@gmail.com
+                <a href="mailto:meetruona@gmail.com">
+                  meetruona@gmail.com
                 </a>{" "}
                 within 30 days of receiving your order.
               </li>
@@ -153,7 +153,7 @@ const ReturnAndRefundComponent = () => {
 
         <p>
           Email:{" "}
-          <a href="mailto:collectionsbu@gmail.com">collectionsbu@gmail.com</a>
+          <a href="mailto:meetruona@gmail.com">meetruona@gmail.com</a>
         </p>
         <p>Phone: [Your Customer Support Phone Number]</p>
 

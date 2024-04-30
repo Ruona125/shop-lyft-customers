@@ -63,8 +63,8 @@ const FaqComponent = () => {
         <h4>Contact Customer Support</h4>
         <p>
           You can reach our customer support team through the chat icon below {" "}
-          <a href="mailto:collectionsbu@gmail.com">
-            collectionsbu@gmail.com
+          <a href="mailto:meetruona@gmail.com">
+            meetruona@gmail.com
           </a>
           . We aim to respond to all inquiries within 24 hours.
         </p>

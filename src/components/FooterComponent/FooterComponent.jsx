@@ -67,7 +67,7 @@ const FooterComponent = () => {
         <div>
           <h2>Contact Us</h2>
           <h3>TEL | WhatsApp: +1234567</h3>
-          <h3>Email: collectionsbu@gmail.com</h3>
+          <h3>Email: meetruona@gmail.com</h3>
           <h3>Address: 7, albarta, canada</h3>
         </div>
       </div>
